@@ -1,0 +1,44 @@
+h1 {
+	color: #FF5C5C;
+	text-align: center;
+}
+
+
+p {
+	font-size: 20px;
+	display: flex;
+	align-self: flex-end;
+	text-align: center;
+
+}
+.servicos {
+	
+	display: flex;
+	justify-content: space-between;
+	justify-content: space-around;
+
+	
+
+}
+ 
+img{
+}
+
+#pop {
+	border: 2px solid #FF5C5C;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+
+
+}
+
+#luxo {
+	border: 2px solid #FF5C5C;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+
+
+}
+
