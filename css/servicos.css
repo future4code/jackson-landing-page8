@@ -1,0 +1,165 @@
+<<<<<<< HEAD
+h1 {
+	color: #FF5C5C;
+	text-align: center;
+}
+
+
+p {
+	font-size: 20px;
+	display: flex;
+	align-self: flex-end;
+	text-align: center;
+
+}
+.servicos {
+	
+	display: flex;
+	justify-content: space-between;
+	justify-content: space-around;
+
+	
+
+}
+ 
+img{
+}
+
+#pop {
+	border: 2px solid #FF5C5C;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+
+
+}
+
+#luxo {
+	border: 2px solid #FF5C5C;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+
+
+}
+
+=======
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../img/carro-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:10vh;
+}
+
+header img {
+    width: 10%;
+    height: auto;
+    padding: 0 15%;
+}
+
+a, a:active, a:visited {
+    text-decoration: none;
+    color: #FF5C5C;
+    padding: 0 2%;
+}
+
+
+nav {
+    font-size: 1.2em;
+    width: 75%;    
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section a {
+    background-color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+a:hover {
+    background-color: #FF5C5C;
+    color: white;
+    transition-duration: 1s;
+    padding: 2%;
+    border-radius: 20px;    
+}
+
+footer {
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 10%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+       background-size: contain;
+       background-image: none;
+    }
+    
+    header {
+        flex-direction: column;
+        height: auto;       
+    }
+
+    header img {
+        width: 80%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;        
+    }
+
+    section {
+        flex-direction: column;
+        background-image: url(../img/carro-background.png);
+        background-repeat: no-repeat;
+    }
+
+    section a {
+        background-color: #FF5C5C;
+        color: white;
+    }
+
+    footer img {
+        width: 40%;
+    }
+
+}
+
+
+>>>>>>> 0bb214e3c1b855efae652e2bc2764e1fe7394433
