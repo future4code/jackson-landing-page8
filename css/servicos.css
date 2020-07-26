@@ -12,6 +12,25 @@ p {
 	text-align: center;
 
 }
+nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;       
+    }
+
+    
+
+  a {
+        background-color: #FF5C5C;
+        color: white;
+        font-size: 20px;
+    }
+footer img {
+        width: 40%;
+    }
 .servicos {
 	
 	display: flex;
@@ -40,6 +59,11 @@ p {
 
 
 }
+@media screen and (max-width: 800px) {
+    body {
+       background-size: contain;
+       background-image: none;
+    }
 
 
 
