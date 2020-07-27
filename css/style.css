@@ -98,12 +98,7 @@ footer img {
         padding-bottom: 2%;        
     }
 
-    section {
-        flex-direction: column;
-        background-image: url(../img/carro-background.png);
-        background-repeat: no-repeat;
-    }
-
+    
     section a {
         background-color: #FF5C5C;
         color: white;
